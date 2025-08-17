@@ -49,32 +49,33 @@ Error_Clustering_Data_Analysis_Project/
 3. Install dependencies:
   ```bash
    pip install -r requirements.txt
-
+   ```
 
 4. requirements.txt
 
   **Core**
-  pandas
-  numpy
-  tqdm
-  python-dotenv
-  
-  **Async + networking**
-  nest_asyncio
-  aiohttp
-  web3
-  
-  **ABI decoding**
-  eth-abi
-  
-  **Visualization**
-  matplotlib
-  seaborn
-  plotly
-  
-  **Jupyter**
-  notebook
-  jupyterlab
+- pandas
+- numpy
+- tqdm
+- python-dotenv
+
+**Async + networking**
+- nest_asyncio
+- aiohttp
+- web3
+
+**ABI decoding**
+- eth-abi
+
+**Visualization**
+- matplotlib
+- seaborn
+- plotly
+
+**Jupyter**
+- notebook
+- jupyterlab
+
  
 
 
