@@ -1,0 +1,3 @@
+paymaster,total_ops,fail_count,failure_rate_percent,percent_of_total_failures,rank
+0x0000000000000000000000000000000000000000,112924,40291,35.68,99.72,1
+0x58a8FC5925fCc966E2Ef6Ea6Cfe0A30FEB1Ff887,11253,115,1.02,0.28,2
