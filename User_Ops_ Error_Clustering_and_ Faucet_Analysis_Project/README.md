@@ -41,36 +41,38 @@ Error_Clustering_Data_Analysis_Project/
 
 
 2. Create a virtual environment:
-  python -m venv .venv
-  source .venv/bin/activate   # Windows: .venv\Scripts\activate
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate   # Windows: .venv\Scripts\activate
 
 
 3. Install dependencies:
-  pip install -r requirements.txt
+  ```bash
+   pip install -r requirements.txt
 
 
 4. requirements.txt
 
-  # Core
+  **Core**
   pandas
   numpy
   tqdm
   python-dotenv
   
-  # Async + networking
+  **Async + networking**
   nest_asyncio
   aiohttp
   web3
   
-  # ABI decoding
+  **ABI decoding**
   eth-abi
   
-  # Visualization`
+  **Visualization**
   matplotlib
   seaborn
   plotly
   
-  # Jupyter
+  **Jupyter**
   notebook
   jupyterlab
  
