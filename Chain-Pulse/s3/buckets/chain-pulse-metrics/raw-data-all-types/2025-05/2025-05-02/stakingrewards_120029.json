@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-05-02T12:00:29.375445+00:00",
+  "staking_data": {
+    "ethereum-2-0": {
+      "active_validators": 1062713.0,
+      "block_time": 12.095758084838304,
+      "circulating_supply": 120732850.3849309,
+      "inflation_rate": 0.7262241985627483,
+      "marketcap": 221014782759.027,
+      "price": 1830.15,
+      "reward_rate": 3.0484926700226525,
+      "staked_tokens": 34069482.99468773,
+      "staking_ratio": 28.21890056108546,
+      "total_supply": 120732850.3849309
+    },
+    "solana": {
+      "active_validators": 1286,
+      "block_time": 0.39903285487438456,
+      "circulating_supply": 517680221.76203746,
+      "inflation_rate": 5.302312729657531,
+      "marketcap": 77733829879.98409,
+      "price": 150.06,
+      "reward_rate": 8.810084947606986,
+      "staked_tokens": 389896208.66347814,
+      "staking_ratio": 65.02423572543977,
+      "total_supply": 599616749.5298018
+    },
+    "avalanche": {
+      "active_validators": 1398,
+      "circulating_supply": 417183656.3027916,
+      "inflation_rate": 4.118195091640101,
+      "marketcap": 8924005565.110836,
+      "price": 21.38,
+      "reward_rate": 7.518296276042613,
+      "staked_tokens": 228515028.2216531,
+      "staking_ratio": 49.842188173335096,
+      "total_supply": 458477118.67494935
+    },
+    "binance-smart-chain": {
+      "active_validators": 45,
+      "circulating_supply": 145887575.79,
+      "inflation_rate": -4.432842095677471,
+      "marketcap": 87448154782.348,
+      "price": 599.37,
+      "reward_rate": 6.216802222222222,
+      "staked_tokens": 30376986.66842672,
+      "staking_ratio": 20.822188938250175,
+      "total_supply": 145887575.79
+    }
+  }
+}

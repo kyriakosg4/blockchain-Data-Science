@@ -1,0 +1,2 @@
+timestamp,solana_reward_rate,avalanche_reward_rate,ethereum_reward_rate,binance_reward_rate,solana_staked_tokens,avalanche_staked_tokens,ethereum_staked_tokens,binance_staked_tokens,solana_staking_ratio,avalanche_staking_ratio,ethereum_staking_ratio,binance_staking_ratio,solana_tvl,avalanche_tvl,ethereum_tvl,binance_tvl
+2025-08-18T08:54:57.775098,null,null,null,null,null,null,null,null,null,null,null,null,10342608891.87492,1921734777.6188862,89758492831.20447,7090613526.795278

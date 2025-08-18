@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-05-01T12:00:29.615477+00:00",
+  "fees": [
+    {
+      "chain": "ethereum",
+      "avg_gas_price_gwei": 0.449979192,
+      "avg_gas_used": 222592.49448375468,
+      "transaction_fee": 0.00010016199081306437
+    },
+    {
+      "chain": "avalanche",
+      "avg_gas_price_gwei": 0.166623415,
+      "avg_gas_used": 474124.1217105263,
+      "transaction_fee": 7.900018029328353e-05
+    },
+    {
+      "chain": "bsc",
+      "avg_gas_price_gwei": 1.0,
+      "avg_gas_used": 248256.51951427138,
+      "transaction_fee": 0.00024825651951427137
+    },
+    {
+      "chain": "solana",
+      "avg_cu_per_tx": 18958.49428743235,
+      "avg_cost_per_cu_lamports": 0.9439224944220967,
+      "total_transaction_cost": 1.7895349218280216e-05
+    }
+  ]
+}

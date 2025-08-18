@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-05-04T12:00:26.651007+00:00",
+  "transaction_volume": {
+    "ethereum": {
+      "blockchain": "ethereum",
+      "date": "2025-05-04",
+      "volume": 1404015904
+    },
+    "avalanche": {
+      "blockchain": "avalanche",
+      "date": "2025-05-04",
+      "volume": 79061053
+    },
+    "solana": {
+      "blockchain": "solana",
+      "date": "2025-05-04",
+      "volume": 2485122830
+    },
+    "bsc": {
+      "blockchain": "bsc",
+      "date": "2025-05-04",
+      "volume": 626255966
+    }
+  },
+  "tvl": [
+    {
+      "chain": "BSC",
+      "tvl": 5884567251.038002
+    },
+    {
+      "chain": "Avalanche",
+      "tvl": 1302730021.2147174
+    },
+    {
+      "chain": "Ethereum",
+      "tvl": 52281927062.7967
+    },
+    {
+      "chain": "Solana",
+      "tvl": 7774563386.236969
+    }
+  ]
+}

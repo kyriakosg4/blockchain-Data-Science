@@ -1,0 +1,9 @@
+{
+    "date": "2025-08-18",
+    "processed_files": {
+        "C:/Users/User/Desktop/Chain-Pulse-AWS-lambda/s3/buckets/chain-pulse-metrics/raw-data-all-types\\2025-08\\2025-08-18\\coingecko_115451.json": "2025-08-18T15:46:42.850640",
+        "C:/Users/User/Desktop/Chain-Pulse-AWS-lambda/s3/buckets/chain-pulse-metrics/raw-data-all-types\\2025-08\\2025-08-18\\defillama_115452.json": "2025-08-18T15:46:42.856760",
+        "C:/Users/User/Desktop/Chain-Pulse-AWS-lambda/s3/buckets/chain-pulse-metrics/raw-data-all-types\\2025-08\\2025-08-18\\gas_fees&prices_115457.json": "2025-08-18T15:46:42.857266",
+        "C:/Users/User/Desktop/Chain-Pulse-AWS-lambda/s3/buckets/chain-pulse-metrics/raw-data-all-types\\2025-08\\2025-08-18\\tps_values_115504.json": "2025-08-18T15:46:42.859811"
+    }
+}

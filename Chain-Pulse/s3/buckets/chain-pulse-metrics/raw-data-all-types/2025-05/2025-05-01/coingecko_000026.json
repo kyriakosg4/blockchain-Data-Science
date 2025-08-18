@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-05-01T00:00:26.220629+00:00",
+  "data": {
+    "avax": {
+      "avalanche-2": {
+        "usd": 20.91,
+        "usd_market_cap": 8718089600.540796,
+        "usd_24h_vol": 315521869.2483922,
+        "usd_24h_change": -2.9477166128706203,
+        "last_updated_at": 1746057564
+      }
+    },
+    "eth": {
+      "ethereum": {
+        "usd": 1793.84,
+        "usd_market_cap": 216570725289.26825,
+        "usd_24h_vol": 13494042647.94017,
+        "usd_24h_change": -0.28307824468971593,
+        "last_updated_at": 1746057554
+      }
+    },
+    "bnb": {
+      "binancecoin": {
+        "usd": 599.67,
+        "usd_market_cap": 87479842243.20592,
+        "usd_24h_vol": 717647935.3046333,
+        "usd_24h_change": -0.21448839617936344,
+        "last_updated_at": 1746057577
+      }
+    },
+    "sol": {
+      "solana": {
+        "usd": 147.69,
+        "usd_market_cap": 76476179387.34753,
+        "usd_24h_vol": 3339121506.927286,
+        "usd_24h_change": 0.8569829028166603,
+        "last_updated_at": 1746057585
+      }
+    }
+  }
+}
