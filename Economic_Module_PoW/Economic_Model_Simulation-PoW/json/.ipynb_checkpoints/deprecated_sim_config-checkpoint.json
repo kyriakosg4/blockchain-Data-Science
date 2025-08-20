@@ -1,0 +1,69 @@
+{
+  "epochs": 36,
+  "fee_rate": 0.001,
+  "reward_splits": {
+    "user": 0.12,
+    "developer": 0.30,
+    "liquidity": 0.30,
+    "miner": 0.20,
+    "bundler": 0.08
+  },
+  "score_weights": {
+    "user": {
+      "tx_count": 0.20,
+      "volume": 0.20,
+      "gas": 0.10,
+      "cent_held": 0.20,
+      "dapps_used": 0.30
+    },
+    "developer": {
+      "txs": 0.20,
+      "maus": 0.35,
+      "volume": 0.35,
+      "cent_held": 0.10
+    },
+    "liquidity": {
+      "pool_volume": 0.20,
+      "tx_count": 0.15,
+      "epochs_locked": 0.15,
+      "slippage": 0.30,
+      "capital": 0.20
+    },
+    "bundler": {
+      "user_ops": 0.30,
+      "gas_used": 0.15,
+      "success_rate": 0.15,
+      "delay": 0.20,
+      "diversity": 0.20
+    },
+    "miner": {
+      "blocks": 0.25,
+      "uptime": 0.20,
+      "accuracy": 0.20,
+      "gas": 0.10,
+      "slashed": -0.10,
+      "hashrate": 0.15,
+      "cent_held": 0.20
+    }
+  },
+  "tier_thresholds": {
+    "user": [0.03, 0.12, 0.25, 0.60],
+    "developer": [0.20, 0.40, 0.80],
+    "liquidity": [0.20, 0.40, 0.80],
+    "bundler": [0.20, 0.40, 0.80],
+    "miner": [0.20, 0.40, 0.80]
+  },
+  "stgf_params": {
+    "a": 0.010,
+    "b": 30000000000,
+    "c": 0.00054166667,
+    "d": 300000000
+  },
+  "eligibility_criteria": {
+    "developer": {"min_maws": 100},
+    "miner": {"min_uptime": 0.95, "no_slashing": true},
+    "liquidity": {"min_epochs_locked": 1, "max_slippage": 10},
+    "user": {"min_tx_count": 1},
+    "bundler": {"min_success_rate": 0.90, "min_uptime": 0.95}
+  }
+}

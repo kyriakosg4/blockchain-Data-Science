@@ -1,0 +1,78 @@
+{
+    "initial_supply": 10000000,
+    "num_agents": 300,
+    "seed": 47,
+    "total_potential_agents": 10000,
+
+
+    "consensus": "POW",
+    "min_batch_size": 2,
+    "max_batch_size": 100,
+    "base_block_reward": 0.01,
+    "base_reward_rate": 0.01,
+
+    "bundler_fee_share": 0.2,
+    "validator_fee_share": 0.2,
+    "network_fee_share": 0.6,
+
+
+    "activities": {
+        "transfer_tokens": {
+            "name": "transfer_tokens",
+            "base_reward_rate": 0.01,
+            "fee": 0.5,
+            "governance_multiplier": 1.2
+        },
+        "provide_liquidity": {
+            "name": "provide_liquidity",
+            "base_reward_rate": 0.02,
+            "fee": 0.2,
+            "governance_multiplier": 1.5
+        },
+        "bundle_transactions": {
+            "name": "bundle_transactions",
+            "base_reward_rate": 0.02,
+            "fee": 0.0
+        },
+        "mine_block": {
+            "name": "mine_block",
+            "base_reward_rate": 0.03,
+            "fee": 0.0
+        }
+    },
+
+    "roles": {
+        "user": {
+            "name": "user",
+            "activities": ["transfer_tokens", "provide_liquidity"],
+            "min_balance": 5.0,
+            "allocation_percent": 0.6
+        },
+        "developer": {
+            "name": "developer",
+            "activities": ["provide_liquidity"],
+            "min_balance": 10.0,
+            "allocation_percent": 0.2
+        },
+        "bundler": {
+            "name": "bundler",
+            "activities": ["bundle_transactions"],
+            "min_balance": 0,
+            "allocation_percent": 0.1
+        },
+        "miner": {
+            "name": "miner",
+            "activities": ["mine_block"],
+            "min_balance": 0,
+            "allocation_percent": 0.1
+        }
+    },
+
+    "activity_weights": {
+        "transfer_tokens": 0.5,
+        "provide_liquidity": 0.5,
+        "bundle_transactions": 0.7,
+        "mine_block": 0.8
+    }
+
+}
